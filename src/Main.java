@@ -12,9 +12,9 @@ public class Main {
         System.out.println("sum = " + sum);
         double sbt = sbt(left, right);
         System.out.println("sbt = " + sbt);
-        double mlt = sbt(left, right);
+        double mlt = mlt(left, right);
         System.out.println("mlt = " + mlt);
-        double pwr = sbt(left, right);
+        double pwr = pwr(left);
         System.out.println("pwr = " + pwr);
     }
 
